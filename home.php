@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IF=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+
+    <!-- swipper css link - cdn -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- custom css file link -->
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+<!-- header section starts -->
+
+<section class="header">
+
+    <a href="Home.php" class="logo">travelling guide</a>
+
+    <nav class="navbar">
+        <a href="Home.php">home</a>
+        <a href="About.php">about us</a>
+        <a href="Package.php">packages</a>
+        <a href="Book.php">book now</a>
+
+    </nav>
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+</section>
+<!-- header section ends -->
+
+<!-- home section starts -->
+
+<section class="home">
+
+    <div class="swiper home-slider">
+
+        <div class="swiper-wrapper">
+
+            <!-- Images are inline -->
+            <div class="swiper-slide slide" style="background:url(images/home-slide-1.jpg) no-repeat">
+                <div class="content">
+                    <span>explore, discover, travel</span>
+                    <h3>travel around the world</h3>
+                    <a href="package.php" class="btn">discover more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background:url(images/home-slide-2.jpg) no-repeat">
+                <div class="content">
+                    <span>explore, discover, travel</span>
+                    <h3>discover the new places</h3>
+                    <a href="package.php" class="btn">discover more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background:url(images/home-slide-3.jpg) no-repeat">
+                <div class="content">
+                    <span>explore, discover, travel</span>
+                    <h3>make your tour worthwhile</h3>
+                    <a href="package.php" class="btn">discover more</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+</section>
+
+
+ <!-- home section ends -->
+
+<!-- services section starts -->
+
+<section class="services">
+
+    <h1 class="heading-title"> our services</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <!-- <img src="" alt="" style="width: 50px; height: auto;"> -->
+            <h3>adventure</h3>
+        </div>
+
+        <div class="box">
+            <!-- <img src="" alt="" style="width: 50px; height: auto;"> -->
+            <h3>tour guide</h3>
+        </div>
+
+        <div class="box">
+            <!-- <img src="images/icon-3.png"   alt="" style="width: 50px; height: auto;"> -->
+            <h3>trekking</h3>
+        </div>
+
+        <div class="box">
+            <!-- <img src="images/icon-4.png" alt="" style="width: 50px; height: auto;"> -->
+            <h3>camp fire</h3>
+        </div>
+
+        <div class="box">
+            <!-- <img src="images/icon-5.png" alt="" style="width: 50px; height: auto;"> -->
+            <h3>off road</h3>
+        </div>
+
+        <div class="box">
+            <!-- <img src="images/icon-6.png"  alt="" style="width: 50px; height: auto;"> -->
+            <h3>camping</h3>
+        </div>
+
+    </div>
+</section>
+
+<!-- services section ends -->
+
+
+<!-- home about section starts -->
+
+<section class="home-about">
+    <div class="image">
+    <img src="images/about-img.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <h3>about</h3>
+        <p>Welcome to Travelling Guide, your ultimate travel companion! We are passionate about exploring the world and bringing you the best travel tips, destination guides, and insider insights. Whether you’re planning your next adventure or looking for hidden gems, we’ve got you covered. Let’s make every journey unforgettable!</p>
+    <a href="about.php" class="btn">read more</a>
+    </div>
+</section>
+
+<!-- home about section ends -->
+
+<!-- home packages section starts -->
+
+<section class="home-packages">
+
+    <h1 class="heading-title">our packages</h1>
+
+    <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/img-1.jpg" alt="" class="img_1">
+                </div>
+                <div class="content">
+                    <h3>Luxury Cruise Retreat</h3>
+                    <p>Indulge in the ultimate Luxury Cruise Retreat, where elegance, comfort, and breathtaking ocean views create an unforgettable escape </p>
+                    <a href="book.php" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/img-2.jpeg" alt="" class="img_1">
+                </div>
+                <div class="content">
+                    <h3>Tropical Paradise Escape</h3>
+                    <p>Escape to a tropical paradise where crystal-clear waters, lush greenery, and serene beaches await your perfect getaway</p>
+                    <a href="book.php" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/img-3.jpg" alt="" class="img_1">
+                </div>
+                <div class="content">
+                    <h3>Cultural Wonders Tour</h3>
+                    <p>Embark on a Cultural Wonders Tour and explore the rich heritage, traditions, and iconic landmarks that define each destination </p>
+                    <a href="book.php" class="btn">book now</a>
+                </div>
+            </div>
+
+    </div>
+
+    <div class="load-more">
+        <a href="package.php" class="btn">load more</a>
+    </div>
+
+</section>
+
+<!-- home packages section ends -->
+
+<!--home offer section starts -->
+
+<section class="home-offer">
+    <div class="content">
+        <h3>upto 50% off</h3>
+        <p>Take advantage of amazing deals with up to 50% off on select travel destinations, accommodations, and tours</p>
+        <a href="book.php" class="btn">book now</a>
+    </div>
+</section>
+
+
+
+<!--home offer section ends -->
+
+
+
+
+
+
+<!--footer section starts -->
+
+<section class="footer">
+
+<div class="box-container">
+<div class="box">
+        <h3>quick links</h3>
+        <a href="Home.php"> <i class="fas fa-angle-right"></i> home</a>
+        <a href="About.php"> <i class="fas fa-angle-right"></i> about</a>
+        <a href="Package.php"> <i class="fas fa-angle-right"></i> package</a>
+        <a href="Book.php"> <i class="fas fa-angle-right"></i> book</a>
+</div>
+
+<div class="box">
+        <h3>extra links</h3>
+        <a href="#"> <i class="fas fa-angle-right"></i> ask questions</a>
+        <a href="#"> <i class="fas fa-angle-right"></i> about us</a>
+        <a href="#"> <i class="fas fa-angle-right"></i> privacy policy</a>
+        <a href="#"> <i class="fas fa-angle-right"></i> terms of use</a>
+</div>
+
+<div class="box">
+        <h3>contact info</h3>
+        <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+        <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+        <a href="#"> <i class="fas fa-envelope"></i> iihaaa2012@gmail.com </a>
+        <a href="#"> <i class="fas fa-map"></i> Colombo, Sri Lanka - 0094 </a>
+</div>
+
+<div class="box">
+    <h3>follow us</h3>
+    <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+    <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+    <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+    <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+</div>
+
+</div>
+
+<div class="credit"> created by <span>irfan ibrahim</span> | all rights reserved!</div>
+
+</section>
+
+<!--footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- swiper js link -->
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+<!-- custom js file link -->
+
+<script src="js/script.js"></script>
+
+<!-- External JS is not working, so I've used everything Inline JS -->
+<script>
+    var swiper = new Swiper(".home-slider", {
+    loop:true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+});
+
+// Navigation bar sticks
+window.onscroll = () =>{
+    menu.classList.remove('fa-times');
+    navbar.classList.remove('active');
+};
+
+var swiper = new Swiper(".reviews-slider", {
+    loop:true,
+    spaceBetween: 20,
+    autoHeight: true,
+    grabCursor:true,
+    breakpoints: {
+        640: {
+          slidesPerView: 1,
+        },
+        768: {
+          slidesPerView: 2,
+        },
+        1024: {
+          slidesPerView: 3,
+        },
+    },
+});
+</script>
+    
+</body>
+</html>
